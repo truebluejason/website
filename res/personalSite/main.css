@@ -1,0 +1,131 @@
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    overflow: hidden;
+    background: azure;
+}
+
+header {
+    margin: auto;
+    width: 75vw;
+    height: 35vh;
+}
+
+#banner {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+
+/* CONTENT STARTS HERE */
+article {
+    margin: auto;
+    width: 75vw;
+    height: 60vh;
+    text-indent: 1vw;
+    background: beige;
+    overflow: scroll;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#link {
+    text-decoration: none;
+    color:dodgerblue;
+}
+
+#bio {
+    background: white;
+}
+
+#announce {
+    color: coral;
+}
+
+#intro {
+    text-align: center;
+    font-style: italic;
+    font-size: 14px;
+    padding: 1vw;
+    margin: 1vw;
+    background: white;
+}
+
+#template {
+    padding: 1vw;
+    padding-bottom: 2vw;
+    margin: 1vw;
+    overflow: inherit;
+    background-color: aliceblue;
+}
+
+#dontIndent {
+    text-indent: 0vw;
+}
+
+img {
+    display: block;
+    vertical-align: text-top;
+    float: left;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    width: 25vw;
+    height: 18vw;
+}
+
+#myPic {
+    opacity: 0.75;
+}
+
+h1 {
+    font-size: 24px;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+p {
+    line-height: 150%;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+article {
+    margin: auto;
+    width: 75vw;
+    height: 60vh;
+    background: beige;
+    overflow: scroll;
+}
+/* AND ENDS HERE */
+
+footer {
+    margin:auto;
+    width: 75vw;
+    height: 3vh;
+    font-family: monospace;
+    background: white;
+}
+
+#contact {
+    float: right;
+}
+
+#navigation {
+    position: absolute;
+    width: 11vw;
+    height: 11vh;
+    top: 10vh;
+    right: 0vw;
+}
+
+ul {
+    padding: 1vw;
+    line-height: 200%;
+    font-weight: bold;
+    text-shadow: 1px 0 0 brown, -1px 0 0 brown, 0 1px 0 brown, 0 -1px 0 brown, 1px 1px brown, -1px -1px 0 brown, 1px -1px 0 brown, -1px 1px 0 brown;
+    color: beige;
+}
